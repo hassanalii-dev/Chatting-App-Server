@@ -31,6 +31,6 @@ io.on("connection", (socket) => {
     })
 })
 
-server.listen(5173, () => {
-  console.log("listening on *:5173");
+server.listen(5000, () => {
+  console.log("listening on *:5000");
 });
